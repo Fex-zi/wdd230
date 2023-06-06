@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
 
+:root {
+  --primary-color: #E63946;
+  --secondary-color:#457B9D;
+  --accent1-color: #1D3557;
+  --accent2-color: #A8DADC;
+
+  --heading-font: 'Merriweather', sans-serif;
+  --paragraph-font: 'Roboto', sans-serif;
+
+  --nav-background-color: #1D3557;
+  --nav-link-color: #457B9D;
+  --nav-hover-link-color: #E63946;
+  --nav-hover-background-color: #A8DADC;
+}
 
 body {
-  font-family: 'Roboto', sans-serif;
-}
+    font-family: var(--paragraph-font);
+  }
+
 
 header, main, footer {
   max-width: 640px;
