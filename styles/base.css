@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+:root {
+  --primary-color: #E63946;
+  --secondary-color:#457B9D;
+  --accent1-color: #1D3557;
+  --accent2-color: #A8DADC;
+
+  --heading-font: 'Merriweather', sans-serif;
+  --paragraph-font: 'Roboto', sans-serif;
+
+  --nav-background-color: #1D3557;
+  --nav-link-color: #457B9D;
+  --nav-hover-link-color: #E63946;
+  --nav-hover-background-color: #A8DADC;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /*font-family: var(--heading-font);
+    color: var(--primary-color);*/
+
+  header, main, footer {
+    
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: #e6f2ff;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  
+  section {
+    padding: 1rem;
+    background-color: #fff;
+  }
+
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Sansita", sans-serif;
+  }
+  
+  header {
+    background-color: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  header img{
+    width: 100px;
+    height: 100px;
+  }
+  header, main {
+    max-width: 767px;
+    margin: 0 auto;
+  }
+
+  footer{
+    max-width: 767px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  nav {
+    background-color: #36454f;
+    margin: 0 auto;
+    
+    max-width: 767px;
+  }
+  nav ul {
+    list-style-type: none;
+  }
+  nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    border: 1px solid #fff;
+  }
+  
+  .active {
+    color: yellow;
+  }
+  
+  section h3{
+    text-align: center;
+    
+    
+    
+  }
+  
+
+  
+  
