@@ -2,18 +2,19 @@
 
 :root {
   --primary-color: #E63946;
-  --secondary-color:#457B9D;
-  --accent1-color: #1D3557;
-  --accent2-color: #A8DADC;
+  --secondary-color:#551A8B;
+  --accent1-color: #6EA0BF;
+  --accent2-color: #E6F2FF;
 
   --heading-font: 'Merriweather', sans-serif;
   --paragraph-font: 'Roboto', sans-serif;
 
-  --nav-background-color: #1D3557;
-  --nav-link-color: #457B9D;
+  --nav-background-color: #6EA0BF;
+  --nav-link-color: #551A8B;
   --nav-hover-link-color: #E63946;
-  --nav-hover-background-color: #A8DADC;
+  --nav-hover-background-color:#E6F2FF;
 }
+
 
 body {
     font-family: var(--paragraph-font);

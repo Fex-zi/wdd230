@@ -10,17 +10,19 @@
   <title>Ifeanyi Ojukwu - WDD 230 - Web Frontend Development</title>
   <meta name="description" content="WDD 230 - Web Frontend Development, Ifeanyi Ojukwu, course assignment portal">
   <meta name="author" content="Ifeanyi Ojukwu">
+  <link rel="stylesheet" href="styles/normalize.css">
   <link href="styles/base.css" rel="stylesheet">
   <link href="styles/larger.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles/normalize.css">
   <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
   <header>
     <img src="images/Ify.jpg" alt="Profile Image">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <h1>Ifeanyi Ojukwu</h1>
+    <button id="darkModeButton">☑️</button>
+    <button id="hamburgerButton">&#8801;</button>
   </header>
-  <nav>
+  <nav id="mainMenu">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="week01/chamber-site-plan.html">Chamber</a></li>
@@ -45,7 +47,7 @@
     <section class="card2">
       <h3>Information</h3>
       <p>Information placeholders about the weather, number of visits to the page, etc.</p>
-      <!-- You can add additional content here -->
+      
     </section>
   </main>
   <footer>
@@ -53,5 +55,6 @@
     <p id="lastModified"></p>
   </footer>
   <script src="scripts/getDates.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
 </html>

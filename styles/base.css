@@ -2,17 +2,17 @@
 
 :root {
   --primary-color: #E63946;
-  --secondary-color:#457B9D;
-  --accent1-color: #1D3557;
-  --accent2-color: #A8DADC;
+  --secondary-color:#551A8B;
+  --accent1-color: #6EA0BF;
+  --accent2-color: #E6F2FF;
 
   --heading-font: 'Merriweather', sans-serif;
   --paragraph-font: 'Roboto', sans-serif;
 
-  --nav-background-color: #1D3557;
-  --nav-link-color: #457B9D;
+  --nav-background-color: #6EA0BF;
+  --nav-link-color: #551A8B;
   --nav-hover-link-color: #E63946;
-  --nav-hover-background-color: #A8DADC;
+  --nav-hover-background-color:#E6F2FF;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
   header, main, footer {
     
     margin: 1rem auto;
-    border: 1px solid #bbb;
+    border: 1px solid var(--accent2-color);
     padding: 1rem;
     background-color: #e6f2ff;
   }
@@ -33,7 +33,7 @@ body {
   main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
   }
   
   section {
@@ -49,12 +49,10 @@ body {
     box-sizing: border-box;
   }
   
-  body {
-    font-family: "Sansita", sans-serif;
-  }
+
   
   header {
-    background-color: #bbb;
+    background-color: var(--accent2-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +79,7 @@ body {
   }
   
   nav {
-    background-color: #36454f;
+    background-color: var(--nav-background-color);
     margin: 0 auto;
     
     max-width: 767px;
@@ -112,6 +110,67 @@ body {
     
   }
   
+  #darkModeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
 
+
+  /* Hamburger Menu */
+
+  #hamburgerButton{
+    font-size: 2rem;
+    color: var(--accent2-color);
+    background: var(--accent1-color);
+    border-radius: 4px;
+    margin: 5px;
   
+  }
   
+  #mainMenu {
+    display: none;
+  }
+
+  #mainMenu.show {
+    display: block;
+  }
+
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+
+  .dark-mode h1 {
+    color: #fff;
+  }
+  .dark-mode a {
+    color: #fff;
+  }
+
+
+  .dark-mode nav {
+    background-color: #333;
+  }
+
+  .dark-mode nav a {
+    color: #fff;
+  }
+
+  .dark-mode nav a:hover {
+    border: 1px solid #fff;
+  }
+
+  .dark-mode section {
+    background-color: #444;
+  }
+
+  .dark-mode footer {
+    background-color: #333;
+    color: #fff;
+  }
+
+    
