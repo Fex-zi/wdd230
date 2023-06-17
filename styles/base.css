@@ -19,8 +19,6 @@ body {
     font-family: var(--paragraph-font);
   }
 
-  /*font-family: var(--heading-font);
-    color: var(--primary-color);*/
 
   header, main, footer {
     

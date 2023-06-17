@@ -1,0 +1,116 @@
+/* CSS rules for larger views */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+:root {
+  --primary-color: #E63946;
+  --secondary-color:#551A8B;
+  --accent1-color: #6EA0BF;
+  --accent2-color: #E6F2FF;
+
+  --heading-font: 'Merriweather', sans-serif;
+  --paragraph-font: 'Roboto', sans-serif;
+
+  --nav-background-color: #6EA0BF;
+  --nav-link-color: #551A8B;
+  --nav-hover-link-color: #E63946;
+  --nav-hover-background-color:#E6F2FF;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    
+  }
+
+@media (min-width: 640px) {
+   
+    nav ul {
+      display: flex;
+      padding: 8px;
+    }
+    nav ul li {
+      flex: 1 10%;
+      
+    }
+
+    nav img, nav h2{
+        display: block;
+    }
+    
+    header{
+        display: none;
+    }
+    
+    nav h2{
+        color: #fff;
+        
+    }
+    /*--MAin start--*/
+    .main-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr ); 
+        grid-gap: 2rem;
+      }
+
+      .main-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-gap: 2rem;
+      }
+    
+    .card{
+       
+        grid-column: 1 / 2;
+        padding: 2rem; 
+        
+   }
+   
+   .card2{
+    grid-column: 2 / 2;
+    padding: 2rem;
+    
+   }
+
+   .card3{
+    
+    grid-column: 1 / 2;
+    padding: 2rem;
+    
+   }
+   .card4{
+   
+    grid-column: 2 / 2;
+    padding: 2rem;
+    
+   }
+   .card5{
+    
+    grid-column: 3 / 3;
+    padding: 2rem;
+    
+   }
+    /*--Main ends--*/
+       
+   #mainMenu {
+    display: block;
+  }
+
+  #hamburgerButton{
+    display: none;
+  }
+  
+  .header-content {
+    padding-bottom: 26.25%
+  }
+
+  .cta-btn {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .spot, .hr-spot{
+    display: none;
+  }
+ 
+}
+  
+  

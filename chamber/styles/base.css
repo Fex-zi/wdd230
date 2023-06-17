@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+:root {
+  --primary-color: #E63946;
+  --secondary-color:#551A8B;
+  --accent1-color: #6EA0BF;
+  --accent2-color: #E6F2FF;
+
+  --heading-font: 'Merriweather', sans-serif;
+  --paragraph-font: 'Roboto', sans-serif;
+
+  --nav-background-color: #6EA0BF;
+  --nav-link-color: #551A8B;
+  --nav-hover-link-color: #E63946;
+  --nav-hover-background-color:#E6F2FF;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    
+  }
+
+
+  header, main {
+    
+    margin: 1rem auto;
+    border: 1px solid var(--accent2-color);
+    padding: 1rem;
+    background-color: var(--accent2-color);
+  }
+  
+  /*--MAin start--*/
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+  
+  section {
+    padding: 1rem;
+    background-color: #fff;
+  }
+
+  .card, .card2, .card3, .card4, .card5{
+    box-shadow: 3px 3px 3px 1px var(--nav-background-color);
+    border-radius: 5px;
+  }
+  
+  /*--Main ends--*/
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  
+/*--Header styles begin --*/
+  
+  header {
+    background-color: var(--nav-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 0px;
+    max-width: 100rem;
+  }
+  
+  header img, nav img{
+    width: 60px;
+    height: 60px;
+  }
+  header, main {
+    max-width: 100rem;
+    margin: 0 auto;
+    
+  }
+  
+  main h3{
+    color: var( --nav-link-color);
+    font-weight: bolder;
+    font-size: larger;
+  }
+
+  header h3{
+    color: #fff;
+  }
+
+   /* Hamburger Menu */
+
+   #hamburgerButton{
+    font-size: 3rem;
+    color: var(--accent2-color);
+    background: var(--accent1-color);
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+    border: 0;
+    margin-top: 14px;
+  
+  }
+  
+  #mainMenu {
+    display: none;
+  }
+
+  #mainMenu.show {
+    display: block;
+  }
+  .header-content {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 39.25%; 
+    
+    
+  }
+  
+  .header-content img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .name {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    padding: 1rem;
+    
+  }
+  .sname{
+    color: var(--accent2-color);
+    font-size: large;
+    font-weight: bolder; 
+    
+  }
+
+  .name img{
+    width: 60px;
+    height: 60px;
+  }
+  
+  .cta-btn{
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    color: var(--accent2-color);
+    background: var(--nav-link-color);
+    border-radius: 2px 2px 2px 1px var(--accent1-color);
+    height: 60px;
+    width: 190px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    padding: 19px; 
+    font-size: large;
+    
+  }
+
+  .cta-btn:hover{
+    background: var(--nav-hover-link-color);
+    box-shadow: 2px 2px 2px 1px var(--accent2-color);
+    transition: .5s;
+  }
+  /* --header styles end--*/
+
+  footer{
+    position: relative;
+    bottom: -15px;
+    max-width: 100rem;
+    height: 5rem;
+    padding: 1rem;
+    text-align: center;
+    background: var(--accent1-color);  
+    margin: 1rem auto;
+    border: 1px solid var(--accent2-color);
+    color: #fff;
+    font-size: 1.5rem;
+
+  }
+  
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+  
+  /*---Nav starts---*/
+  nav {
+    background-color: var(--nav-background-color);
+    margin: 0 auto;  
+    max-width: 100rem;
+    transition: .6s;
+  }
+  nav ul {
+    list-style-type: none;
+  }
+  nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    border: 1px solid #fff;
+    transition: .5s;
+  }
+  
+  .active{
+    border-bottom: 4px solid var(--nav-hover-link-color); 
+    padding-bottom: 20px !important;
+    
+  }
+  
+  
+  nav img, nav h2{
+    display: none;
+}
+
+  /*---Nav ends--*/
+
+  section h3{
+    text-align: center;
+    
+    
+    
+  }
+   
+  .spot{
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    color: var(--nav-link-color);
+    box-shadow: 1px 2px 1px 1px var(--nav-hover-link-color);
+  }
+
+ 
+
+  hr{
+    font-size: small;
+    border: 1px dotted var(--nav-hover-link-color);
+ }
+
+ .hr-spot{
+    border: 1px dashed var(--nav-hover-link-color);
+    
+ }
+
+  
