@@ -84,8 +84,13 @@ body {
     font-size: larger;
   }
 
-  header h3{
+  /*header h3{
     color: #fff;
+  } */
+
+  .h1-name{
+    color: #fff;
+    font-size: larger;
   }
 
    /* Hamburger Menu */
@@ -179,10 +184,10 @@ body {
     padding: 1rem;
     text-align: center;
     background: var(--accent1-color);  
-    margin: 1rem auto;
     border: 1px solid var(--accent2-color);
     color: #fff;
     font-size: 1.5rem;
+    
 
   }
   
