@@ -88,7 +88,7 @@ body {
     color: #fff;
   } */
 
-  .h1-name{
+  .h1-name, .h1-name2{
     color: #fff;
     font-size: larger;
   }
@@ -218,14 +218,15 @@ body {
     transition: .5s;
   }
   
-  .active{
-    border-bottom: 4px solid var(--nav-hover-link-color); 
-    padding-bottom: 20px !important;
+  /*.active{
+    border-bottom: 2px solid var(--nav-hover-link-color); 
+    padding-bottom: 10px !important;
+    transition: .5s;
     
-  }
+  }*/
   
   
-  nav img, nav h2{
+  nav img, .h1-name2{
     display: none;
 }
 
