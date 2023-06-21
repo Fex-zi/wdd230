@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Ifeanyi Ojukwu - WDD 230 - Web Frontend Development">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://www.krazybutterfly.com/wp-content/uploads/2023/03/Lagos-Nigeria.jpg">
+        <meta property="og:url" content="https://fex-zi.github.io/wdd230/">
+        <title>Ifeanyi Ojukwu - WDD 230 - Web Frontend Development</title>
+        <meta name="description" content="WDD 230 - Web Frontend Development, Ifeanyi Ojukwu, course assignment portal">
+        <meta name="author" content="Ifeanyi Ojukwu">
+        <link rel="icon" href="images/favicon.ico">
+        <link href="styles/reponsive-images.css" rel="stylesheet">
+      </head>
+      <body>
+        <header>
+          <h1>Responsive Images</h1>
+        </header>
+        <main>
+            <div class="hero">
+              <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt="img Setting" width="1500" height="750">
+              </picture>
+            </div>
+          </main>
+        <footer>
+    <p>&copy;<span id="year"></span> Ifeanyi Ojukwu, Utah</p>
+    <p id="lastModified"></p>
+  </footer>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

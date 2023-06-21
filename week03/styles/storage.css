@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer, .cent {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  
+
+main {
+	margin-left: 18rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	width: 760px;
+	background-color: rgba(225, 225, 255, 0.2);
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    position: relative;
+    
+}
+
+p {
+	margin: 1rem;
+	display: flex;
+}
+
+.label {
+	display: block;
+	width: 175px;
+	font-weight: 700;
+	color: navy;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.smaller {
+	font-size: smaller;
+}
+
