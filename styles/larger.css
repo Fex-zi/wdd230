@@ -34,7 +34,9 @@
     display: none;
   }
 
- 
+ .hero{
+  width: 767px;
+ }
 }
   
   
