@@ -46,7 +46,7 @@ body {
     border-radius: 5px;
   }
   
-  /*--Main ends--*/
+  /* Main ends */
   
   * {
     margin: 0;
@@ -56,7 +56,7 @@ body {
   }
 
   
-/*--Header styles begin --*/
+/*Header styles begin */
   
   header {
     background-color: var(--nav-background-color);
@@ -195,7 +195,7 @@ body {
     font-size: 1.5rem;
   }
   
-  /*---Nav starts---*/
+  /* Nav starts */
   nav {
     background-color: var(--nav-background-color);
     margin: 0 auto;  
@@ -218,19 +218,21 @@ body {
     transition: .5s;
   }
   
-  /*.active{
+  /*
+  .active{
     border-bottom: 2px solid var(--nav-hover-link-color); 
     padding-bottom: 10px !important;
     transition: .5s;
     
-  }*/
+  }
+  */
   
   
   nav img, nav h2{
     display: none;
 }
 
-  /*---Nav ends--*/
+  /* Nav ends */
 
   section h3{
     text-align: center;
@@ -268,15 +270,15 @@ body {
  }
 
 
- /*------ discover.html css ---*/
-
- /*--.sidebar-left {
+ /*
+ .sidebar-left {
   order: 3;
 }
 
 .sidebar-right {
   order: 2;
-} --*/
+} 
+*/
 
  .main-3{
   padding: 30px;
@@ -286,7 +288,7 @@ body {
  .grid-container {
   grid-template-columns: 1fr;
 
-}      /*grid ends*/
+}      
 
 
 .field {

@@ -44,7 +44,7 @@ body {
         color: #fff;
         
     }
-    /*--MAin start--*/
+    /* MAin start */
     .main-2 {
         display: grid;
         grid-template-columns: repeat(3, 1fr ); 
@@ -88,7 +88,7 @@ body {
     padding: 2rem;
     
    }
-    /*--Main ends--*/
+    /* Main ends */
        
    #mainMenu {
     display: block;
@@ -111,7 +111,7 @@ body {
     display: none;
   }
  
-  /*------ discover.html css ---*/
+  /* discover.html css */
 
   .grid-container {
     display: grid;
@@ -122,8 +122,9 @@ body {
   .sidebar {
     display: grid;
     grid-template-rows: repeat(3, auto);
-    /*gap: 0px;*/
-  }                /*grid ends*/
+    
+  }                
+  /*grid ends*/
   
                           
   .sidebar-left{
