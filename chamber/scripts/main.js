@@ -7,7 +7,7 @@ hamburgerButton.addEventListener('click', () => {
 });
 
 
-const sidebarContent = document.querySelector('.Visits-cont');
+const sidebarContent = document.querySelector('.visits-cont');
 const lastVisit = localStorage.getItem('lastVisit');
 
   if (!lastVisit) {
