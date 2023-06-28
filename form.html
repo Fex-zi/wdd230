@@ -8,7 +8,7 @@
   <meta property="og:image" content="https://www.krazybutterfly.com/wp-content/uploads/2023/03/Lagos-Nigeria.jpg">
   <meta property="og:url" content="https://fex-zi.github.io/wdd230/">
   <title>Form Page</title>
-  <meta name="description" content="WDD 230 - Web Frontend Development, Ifeanyi Ojukwu, course assignment portal">
+  <meta name="description" content="Form page">
   <meta name="author" content="Ifeanyi Ojukwu">
   <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" href="styles/normalize.css">
@@ -44,7 +44,7 @@
             <input type="password" id="password" name="password" required pattern="[A-Za-z0-9]{8,}" title="Password must be at least 8 characters long and can only be alphanumeric">
           </div>
           <div>
-            <label for="confirm-password" class="top">Confirm Password:</label>
+            <label for="confirm_password" class="top">Confirm Password:</label>
             <input type="password" id="confirm_password" name="confirm_password" required pattern="[A-Za-z0-9]{8,}">
           </div>
           <div>
@@ -52,7 +52,7 @@
             <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" placeholder="@byui.edu">
           </div>
           <div>
-            <label for="page-rating" class="top">Page Rating:</label>
+            <label for="r" class="top">Page Rating:</label>
             
          <div id="rangevalue">0</div>
                 <input type="range" id="r" name="r" min="0" max="5" value="0" step="1" list="rangevalues">
@@ -66,7 +66,7 @@
                 </datalist>
           </div>
           <div>
-            <input type="submit" value="Submit Form" class="submitBtn">
+            <button type="submit">Submit Form</button>
           </div>
         </form>
       
