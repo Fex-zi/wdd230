@@ -27,23 +27,36 @@ body {
       display: flex;
       padding: 8px;
     }
-    nav ul li {
+    nav ul li{
       flex: 1 10%;
       
     }
+     .navWords {
+      
+      font-size: 1.5rem;
+      color: #ffffff;
+      font-weight: 800;
+    }
+    
+    .reset{
+      padding: 20px;
+    }
 
-    nav img, nav h2{
+    nav img{
+      height: 40px;
+      width: 40px;
+    }
+    
+    nav img, nav h2, .navWords{
         display: block;
     }
     
+   
     header{
         display: none;
     }
     
-    nav h2{
-        color: #fff;
-        
-    }
+   
     /* MAin start */
     .main-2 {
         display: grid;
@@ -135,6 +148,7 @@ body {
     transform: scale(1.1);
     transition: transform 0.3s ease;
   }
+  
   
 }
   

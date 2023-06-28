@@ -218,17 +218,18 @@ body {
     transition: .5s;
   }
   
-  /*
+  
   .active{
-    border-bottom: 2px solid var(--nav-hover-link-color); 
+    border-bottom: 1px solid var(--nav-hover-link-color); 
     padding-bottom: 10px !important;
     transition: .5s;
+    border-width: 3px;
     
   }
-  */
   
   
-  nav img, nav h2{
+  
+  nav img, nav h2, .navWords{
     display: none;
 }
 
