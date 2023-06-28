@@ -1,0 +1,62 @@
+
+
+/*------ Form ------*/
+
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+
+ 
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #808080;
+    border-radius: 3px;
+  }
+  input[type="range"] {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  #rating-value {
+    font-weight: bold;
+  }
+
+form input.submitBtn{
+    border: none;
+    background: #9c2c13;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    cursor: pointer;
+
+}
+
+input:required{
+    border-left: red solid 6px;
+}
+
+input:required:valid{
+    border-left: green solid 6px;
+}
+
+@media only screen and (min-width: 45em) {
+    form input.submitBtn{
+        max-width: 20rem;  
+      }
+    input {
+        max-width: 20rem;  
+      }
+     input[type="range"] {
+        max-width: 20rem;  
+      }
+    }
