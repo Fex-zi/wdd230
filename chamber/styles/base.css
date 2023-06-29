@@ -368,7 +368,7 @@ input, select {
 }
 
 
-button[type="submit"]{
+input[type="submit"]{
   border: none;
   background: #9c2c13;
   color: #ffffff;

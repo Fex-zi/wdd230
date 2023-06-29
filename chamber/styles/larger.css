@@ -154,7 +154,7 @@ body {
   }
   
   /* form  */
-  button[type="submit"]{
+  input[type="submit"]{
     max-width: 20rem;  
   }
   input, textarea, select {
