@@ -56,6 +56,10 @@ body {
         display: none;
     }
     
+    footer{
+      position: relative;
+      bottom: -15px;
+    }
    
     /* MAin start */
     .main-2 {
@@ -120,7 +124,7 @@ body {
     top: 8px;
     left: 16px;
   }
-  .spot, .hr-spot, .hr-spot-pix{
+  .spot, .hr-spot, .hr-spot-pix, .hr-spot-hide{
     display: none;
   }
  
@@ -149,7 +153,22 @@ body {
     transition: transform 0.3s ease;
   }
   
+  /* form  */
+  button[type="submit"]{
+    max-width: 20rem;  
+  }
+  input, textarea, select {
+    max-width: 20rem;  
+  }
   
+  .main-4{
+    
+  background: var(--accent2-color);
+  height: 1000px;
+  }
+  .no-card{
+    text-align: center;
+  }
 }
   
   

@@ -41,7 +41,7 @@ body {
     background-color: #fff;
   }
 
-  .card, .card2, .card3, .card4, .card5{
+  .card, .card2, .card3, .card4, .card5, .no-card{
     box-shadow: 3px 3px 3px 1px var(--nav-background-color);
     border-radius: 5px;
   }
@@ -72,11 +72,7 @@ body {
     width: 60px;
     height: 60px;
   }
-  header, main {
-    max-width: 100rem;
-    margin: 0 auto;
-    
-  }
+ 
   
   main h3{
     color: var( --nav-link-color);
@@ -178,7 +174,6 @@ body {
 
   footer{
     position: relative;
-    bottom: -15px;
     max-width: 100rem;
     height: 5rem;
     padding: 1rem;
@@ -188,7 +183,6 @@ body {
     color: #fff;
     font-size: 1.5rem;
     
-
   }
   
   h1, h2 {
@@ -270,6 +264,10 @@ body {
   border: 1px dashed var(--nav-link-color); 
  }
 
+ .hr-spot-hide{
+  border: 1px dashed var(--nav-link-color); 
+ 
+ }
 
  /*
  .sidebar-left {
@@ -347,4 +345,50 @@ body {
   }
 }
  
-  
+
+
+/*------ Form ------*/
+
+form label.top, form div{
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: .8rem;
+}
+
+
+
+input, select {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 3px;
+}
+
+
+button[type="submit"]{
+  border: none;
+  background: #9c2c13;
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  cursor: pointer;
+
+}
+
+input:required{
+  border-left: red solid 6px;
+}
+
+input:required:valid{
+  border-left: green solid 6px;
+}
+
+textarea {
+  height: 120px; 
+  width: 100%; 
+}

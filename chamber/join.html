@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Saint George Chambers of commerce">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.krazybutterfly.com/wp-content/uploads/2023/03/Lagos-Nigeria.jpg">
+  <meta property="og:url" content="https://fex-zi.github.io/wdd230/">
+  <title>Join Us</title>
+  <meta name="description" content="Homepage for Saint George Chambers of commerce">
+  <meta name="author" content="Ifeanyi Ojukwu">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link href="styles/base.css" rel="stylesheet">
+  <link href="styles/larger.css" rel="stylesheet">
+ 
+</head>
+<body>
+    
+  <header>
+    
+    <button id="hamburgerButton">&#8801;</button>
+    <img src="images/favicon.png" alt="logo">
+      <h1 class="h1-name">Saint George Chamber of commerce</h1>
+  </header>
+  <nav id="mainMenu">
+    
+    <ul>
+      <li><img src="images/favicon.png" alt="logo"> <span class="navWords"> Saint George <br>Chamber of commerce</span></li>
+      
+      <li class="reset"><a href="index.html" >Home</a></li>
+      <li class="reset"><a href="discover.html">Discover</a></li>
+      <li class="reset"><a href="#">Site Plan</a></li>
+      <li class="reset"><a href="join.html" class="active">Join</a></li>
+    </ul>
+  </nav>
+  <div class="header-content">
+    <img src="images/bg.jpg" alt="Profile Image">
+    <div class="cta-btn">Join Us Today</div>
+    </div>
+    <main class="main-3 main-4">
+        <div class="grid-container">
+            <div class="sidebar sidebar-left">
+                <div class="field">
+                    <h3>The Chamber Join Page</h3>
+                
+                    <form method="get" action="thankyou.html" name="form" id="form">
+                      <div>
+                        <label for="firstname" class="top">Firstname:</label>
+                        <input type="text" id="firstname" name="firstname" required>
+                      </div>
+                      <div>
+                        <label for="lastname" class="top">Lastname:</label>
+                        <input type="text" id="lastname" name="lastname" required>
+                      </div>
+                      <div>
+                        <label for="position" class="top">Position:</label>
+                        <input type="text" id="position" name="position" pattern="[A-Za-z\s\-]{7,}" title="Please enter a valid title or position with a minimum of seven characters (only alphabets, hyphens, and spaces are allowed)">
+                      </div>
+                      <div>
+                        <label for="email" class="top">Email:</label>
+                        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@gmail\.com$" title="Please enter a valid email address" placeholder="@gmail.com">
+                      </div>
+                      <div>
+                        <label for="phone" class="top">Mobile phone number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                      </div>
+                      <div>
+                        <label for="membership" class="top">Membership level:</label>
+                            <select name="Subject">
+                                <option value="">Please select Membership &#9662;</option>
+                                <option value="NP Membership">NP Membership is for non profit organizations and there is no fee</option>
+                                <option value="Bronze">Bronze Membership</option>
+                                <option value="Silver">Silver Membership</option>
+                                <option value="Gold">Gold Membership</option>
+                            </select>
+                      </div>
+                      <div>
+                        <label for="business" class="top">Business description:</label>
+                        <textarea  id="business" name="business"  required></textarea>
+                      </div>
+                      <div>
+                        
+                        <input type="hidden" id="timestamp" name="timestamp">
+                      </div>
+                      <div>
+                    <button type="submit">Submit Form</button>
+                      </div>
+                    </form>
+       
+                  </div>
+                  <br><hr class="hr-spot-pix">
+            </div>
+            
+            <div class="sidebar sidebar-right">
+              <div class="field">
+                
+                <h1>Membership Level Benefits for Saint George Chamber of Commerce</h1>
+
+                <h3>Non-Profit (NP) Membership</h3><br>
+                <ul>
+                  <li>No fee for non-profit organizations.</li>
+                  <li>Access to networking events and business development opportunities.</li>
+                  <li>Inclusion in the Chamber's directory and online listing, showcasing your organization to a wide audience.</li>
+                  <li>Opportunities for collaboration and partnerships with other non-profit and business members.</li>
+                </ul>
+                <br><hr class="hr-spot-hide">
+                <h3>Bronze Membership</h3><br>
+                <ul>
+                  <li>Affordable membership fee.</li>
+                  <li>All the benefits of NP Membership, plus:</li>
+                  <li>Exclusive invitations to Chamber-sponsored events, including business luncheons, workshops, and seminars.</li>
+                  <li>Increased visibility through featured listings in the Chamber's directory and website.</li>
+                  <li>Promotion of your organization's news, events, and achievements through the Chamber's communication channels.</li>
+                </ul>
+                <br><hr class="hr-spot-hide">
+                <h3>Silver Membership</h3><br>
+                <ul>
+                  <li>Membership fee at a higher investment.</li>
+                  <li>All the benefits of Bronze Membership, plus:</li>
+                  <li>Priority access to Chamber networking events and industry-specific workshops.</li>
+                  <li>Enhanced exposure with featured spotlights on the Chamber's home page and social media platforms.</li>
+                  <li>Display of your organization's marketing materials at Chamber events and the Chamber office.</li>
+                </ul>
+                <br><hr class="hr-spot-hide">
+                <h3>Gold Membership</h3><br>
+                <ul>
+                  <li>Membership fee offering the highest level of benefits and premium exposure.</li>
+                  <li>All the benefits of Silver Membership, plus:</li>
+                  <li>VIP access to exclusive Chamber events, including high-profile receptions and galas.</li>
+                  <li>Premier positioning with top-tier logo placement on the Chamber's website and promotional materials.</li>
+                  <li>Direct engagement with influential business and community leaders through executive networking events.</li>
+                </ul>
+               
+              
+            
+              </body>
+              </html>
+                
+              </div>
+              
+            </div>
+          </div>
+      
+  </main>
+    <footer>
+      <p>&copy;<span id="year"></span> Ifeanyi Ojukwu, Utah</p>
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/main.js"></script>
+    
+  </body>
+  </html>
