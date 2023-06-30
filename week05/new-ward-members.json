@@ -1,0 +1,29 @@
+{
+    "familyName": "Jason",
+    "moveInDate": "2023-07-03",
+    "familySize": 4,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Jessy Jason",
+        "gender": "Female",
+        "birthdate": "1990-05-12"
+      },
+      {
+        "name": "Jordan Jason",
+        "gender": "Male",
+        "birthdate": "1992-08-18"
+      },
+      {
+        "name": "Sarah Jason",
+        "gender": "Female",
+        "birthdate": "2015-11-05"
+      },
+      {
+        "name": "Michael Jason",
+        "gender": "Male",
+        "birthdate": "2018-03-22"
+      }
+    ]
+  }
+  

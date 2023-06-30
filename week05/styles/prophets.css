@@ -1,0 +1,38 @@
+  
+  section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: #eee;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  }
+
+footer, header, .weather{
+    text-align: center;
+}
+
+main img{
+        
+    background:#000;
+    animation: fade 15s;
+    cursor: pointer;
+    border-radius: 3px;
+    object-fit: cover;
+    
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
