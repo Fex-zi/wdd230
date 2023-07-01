@@ -7,14 +7,14 @@
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://www.krazybutterfly.com/wp-content/uploads/2023/03/Lagos-Nigeria.jpg">
   <meta property="og:url" content="https://fex-zi.github.io/wdd230/">
-  <title>Thanks</title>
-  <meta name="description" content="Homepage for Saint George Chambers of commerce">
+  <title>Directory Page</title>
+  <meta name="description" content="Directory page for Saint George Chambers of commerce">
   <meta name="author" content="Ifeanyi Ojukwu">
   <link rel="icon" href="images/favicon.png">
   <link rel="stylesheet" href="styles/normalize.css">
   <link href="styles/base.css" rel="stylesheet">
   <link href="styles/larger.css" rel="stylesheet">
- 
+  <link href="styles/json.css" rel="stylesheet">
 </head>
 <body>
     
@@ -31,7 +31,7 @@
       
       <li class="reset"><a href="index.html">Home</a></li>
       <li class="reset"><a href="discover.html">Discover</a></li>
-      <li class="reset"><a href="directory.html">Directory</a></li>
+      <li class="reset"><a href="directory.html" class="active">Directory</a></li>
       <li class="reset"><a href="join.html">Join</a></li>
     </ul>
   </nav>
@@ -39,17 +39,26 @@
     <img src="images/bg.jpg" alt="Profile Image">
     <div class="cta-btn">Join Us Today</div>
     </div>
-    <main class="form-class">
+    
+      <div class="menu">
       
-        <h2 class="no-card">Thanks for creating an account. A Confirmation mail sent to you. Check your inbox. </h2>
         
-  </main>
+          <button id="gridViewButton">⏹️Grid View</button>
+          <button id="listViewButton">📄List View</button>
+        </div>
+          
+          <div id="membersContainer"></div>
+        
+        
+        
+      
     <footer>
       <p>&copy;<span id="year"></span> Ifeanyi Ojukwu, Utah</p>
       <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/json.js"></script>
     
   </body>
   </html>

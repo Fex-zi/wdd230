@@ -1,0 +1,69 @@
+{
+    "members": [
+      {
+        "name": "Johnny taylor",
+        "address": "923 Main St, City A",
+        "phone": "435-406-7890",
+        "website": "directory.html",
+        "image": "member1.webp",
+        "membership": "Gold",
+        "otherInfo": "Experienced, Reliable"
+      },
+      {
+        "name": "Philip Hilson",
+        "address": "456 Elm St, City B",
+        "phone": "987-654-3210",
+        "website": "directory.html",
+        "image": "member2.webp",
+        "membership": "Silver",
+        "otherInfo": "Very Innovative"
+      },
+      {
+        "name": "Hannah Wicks",
+        "address": "898 Vinix St, Bldg E",
+        "phone": "435-456-7890",
+        "website": "directory.html",
+        "image": "member3.webp",
+        "membership": "Gold",
+        "otherInfo": "Wide Global Reach"
+      },
+      {
+        "name": "Ceejay Mike",
+        "address": "987 Mikes St, Home 21",
+        "phone": "435-644-3110",
+        "website": "directory.html",
+        "image": "member4.webp",
+        "membership": "Bronze",
+        "otherInfo": "Quick Turnaround Time"
+      },
+      {
+        "name": "Brittney Anna",
+        "address": "738 Elk St, Bldg E",
+        "phone": "433-654-3278",
+        "website": "directory.html",
+        "image": "member5.webp",
+        "membership": "Silver",
+        "otherInfo": "Industry Leaders"
+      },
+      {
+        "name": "John Philip",
+        "address": "419 Ketu St, Lagos",
+        "phone": "405-956-7890",
+        "website": "directory.html",
+        "image": "member6.webp",
+        "membership": "Gold",
+        "otherInfo": "Competitive Pricing"
+      },
+      {
+        "name": "Jeremy Jinks",
+        "address": "902 Eden est, Utah",
+        "phone": "435-954-7210",
+        "website": "directory.html",
+        "image": "member7.webp",
+        "membership": "Bronze",
+        "otherInfo": "Cutting-edge Technology"
+      }
+      
+    ]
+  }
+  
