@@ -134,6 +134,11 @@ body {
   nav ul {
     list-style-type: none;
   }
+
+  #activities-container {
+    list-style-type: none;
+  }
+
   nav a {
     display: block;
     color: #fff;
