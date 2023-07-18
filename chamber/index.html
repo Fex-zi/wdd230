@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="styles/normalize.css">
   <link href="styles/base.css" rel="stylesheet">
   <link href="styles/larger.css" rel="stylesheet">
+  <link href="styles/json.css" rel="stylesheet">
 </head>
 <body>
     
@@ -45,36 +46,46 @@
         <p>Join us for a full day of networking, informative sessions, and valuable connections at our annual Business Networking Conference. This event brings together local businesses, entrepreneurs, and professionals worldwide - July 15, 2023 at 9 a.m.</p>
       </section>
       <section class="card2">
-        <h3>Weather</h3><hr><br>
-        <p>Information placeholders about the weather, number of visits to the page, etc.</p>
-        
+        <h3>Saint George, Utah Daily Weather Information</h3><hr><br><ul><li><h3 id="weather-day"></h3><br><span id="current-temp" ></span><figure class="cent-wet">
+          <img id="weather-icon" src="jj" alt="weather">
+          <figcaption></figcaption>
+        </figure></li><hr class="hr-spot">
+        <li><h3 id="weather-day-2"></h3><br><span id="current-temp-2" ></span><figure class="cent-wet"></figure>
+          <img id="weather-icon-2" src="jj" alt="weather">
+          <figcaption id="caption-2"></figcaption>
+        </figure></li><hr class="hr-spot">
+        <li><h3 id="weather-day-3"></h3><br><span id="current-temp-3" ></span><figure class="cent-wet"></figure>
+          <img id="weather-icon-3" src="jj" alt="weather">
+          <figcaption id="caption-3"></figcaption>
+        </figure></li>
+      </ul>
       </section>
     </main>
     <hr class="hr-spot">
     <div class="spot">Member Spotlights</div>
-    <main class="main-2">
+    
+   
+      <div id="membersContainer" class="grid-view-2"></div>
+  
       
-        <section class="card3">
-            <h3>Information</h3><hr><br>
-            <p>Information placeholders about the weather, number of visits to the page, etc.</p>
-        </section>
-        <section class="card4">
-          <h3>Information</h3><hr><br>
-          <p>Information placeholders about the weather, number of visits to the page, etc.</p>
-          
-        </section>
-        <section class="card5">
-            <h3>Information</h3><hr><br>
-            <p>Information placeholders about the weather, number of visits to the page, etc.</p>
-            
-          </section>
-      </main>
+
+      
+      <section class="header" id="header">
+        <h1>Saint George Chamber of Commerce</h1>
+        <p>We invite you to attend our commerce meet and greet on Wednesday at 7:00 p.m.</p>
+        <a class="btn-bgstroke" id="btn-bgstroke">Close Banner ❌</a>
+    </section>
     <footer>
       <p>&copy;<span id="year"></span> Ifeanyi Ojukwu, Utah</p>
       <p id="lastModified"></p>
     </footer>
+    <script src="scripts/json.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
+    
+   
+    
     
   </body>
   </html>

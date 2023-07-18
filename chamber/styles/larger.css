@@ -124,7 +124,7 @@ body {
     top: 8px;
     left: 16px;
   }
-  .spot, .hr-spot, .hr-spot-pix, .hr-spot-hide{
+  .hr-spot, .hr-spot-pix, .hr-spot-hide{
     display: none;
   }
  
@@ -169,6 +169,26 @@ body {
   .no-card{
     text-align: center;
   }
+
+  /* Weather */
+  .card2 ul {
+    display: flex;
+    padding: 8px;
+    
+  }
+  .card2 ul li{
+    flex: 1;
+    
+  }
+
+
+  .grid-view-2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 20px;
+    margin: 20px;
+  
+  }
+  
+
 }
-  
-  
