@@ -86,11 +86,13 @@ body {
   }
  
   
-  main h3{
+  main h3, .card2 div{
     color: var( --nav-link-color);
     font-weight: bolder;
     font-size: larger;
   }
+
+
 
   /*header h3{
     color: #fff;
@@ -181,6 +183,11 @@ body {
     background: var(--nav-hover-link-color);
     box-shadow: 2px 2px 2px 1px var(--accent2-color);
     transition: .5s;
+  }
+
+  .cta-btn a{
+    color: var(--accent2-color);
+    text-decoration: none;
   }
   /* --header styles end--*/
 
@@ -428,4 +435,11 @@ textarea {
 .btn-bgstroke:hover {
   background-color: white;
   color: #33cccc;
+}
+
+.grid-view-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  margin: 20px;
 }

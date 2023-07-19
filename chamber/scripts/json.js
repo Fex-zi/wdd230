@@ -1,9 +1,9 @@
-const url = "data/members.json";
+const turl = "data/members.json";
 const membersContainer2 = document.querySelector("#membersContainer");
 
 async function getmembers() {
   try {
-    const response = await fetch(url);
+    const response = await fetch(turl);
     const data = await response.json();
 
     displaymembers(data.members);
@@ -59,6 +59,7 @@ const displaymembers = (members) => {
     const otherInfo = document.createElement("p");
     otherInfo.textContent = member.otherInfo;
     cardfile.appendChild(otherInfo);
+    
 
     membersContainer2.appendChild(cardfile);
   });
@@ -74,7 +75,7 @@ function shuffleArray(array) {
 }
 
   
-//Directory page
+//Directory
 
 const membersURL = "data/members.json";
 const membersContainer = document.querySelector("#membersContainer");
