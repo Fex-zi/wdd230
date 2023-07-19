@@ -147,6 +147,7 @@ function createMemberCard(member) {
 }
 
 function createMemberListItem(member) {
+  
   const listItem = document.createElement("li");
   
   const name = document.createElement("h3");
@@ -174,6 +175,19 @@ function createMemberListItem(member) {
   otherInfo.textContent = member.otherInfo;
   listItem.appendChild(otherInfo);
   
+
+  const details = [
+    member.name,
+    member.address,
+    member.phone,
+    website.textContent = "Website",
+    `Membership: ${member.membership}`,
+    member.otherInfo
+  ];
+
+  const detailsText = details.join(" | ");
+  listItem.textContent = detailsText;
+
   return listItem;
 }
 
